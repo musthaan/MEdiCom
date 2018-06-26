@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MEdiCom.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Login" Height="350" Width="525" Background="#e3e3e3">
+    <Border Background="Black" CornerRadius="50" Margin="25">
+        <StackPanel Margin="25">
+            <Label Content="Login" Foreground="#555" FontSize="24" HorizontalAlignment="Center"></Label>
+            <Separator></Separator>
+            <Label Content="UserName" Foreground="White"></Label>
+            <TextBox Name="txtUserName"></TextBox>
+            <Label Content="Password" Foreground="White"></Label>
+            <PasswordBox Name="txtPassword"></PasswordBox>
+            
+            <Button Content="Submit" Margin="20" Foreground="White" Background="Gray"></Button>
+        </StackPanel>
+    </Border>
 </Window>

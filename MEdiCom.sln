@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEdiCom.UI", "MEdiCom.UI\MEdiCom.UI.csproj", "{BECC8209-738A-493B-ABA5-164FFD6B50B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEdiCom.Models", "MEdiCom.Models\MEdiCom.Models.csproj", "{CED05A54-0CB9-4447-87EE-779205014136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEdiCom.DataAccess", "MEdiCom.DataAccess\MEdiCom.DataAccess.csproj", "{37CDBC46-D29A-44BD-8D0F-850922945B14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BECC8209-738A-493B-ABA5-164FFD6B50B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BECC8209-738A-493B-ABA5-164FFD6B50B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BECC8209-738A-493B-ABA5-164FFD6B50B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED05A54-0CB9-4447-87EE-779205014136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED05A54-0CB9-4447-87EE-779205014136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED05A54-0CB9-4447-87EE-779205014136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED05A54-0CB9-4447-87EE-779205014136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CDBC46-D29A-44BD-8D0F-850922945B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CDBC46-D29A-44BD-8D0F-850922945B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CDBC46-D29A-44BD-8D0F-850922945B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CDBC46-D29A-44BD-8D0F-850922945B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
