@@ -5,17 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MEdiCom.UI"
         mc:Ignorable="d"
-        Title="Login" Height="350" Width="525" Background="#e3e3e3">
-    <Border Background="Black" CornerRadius="50" Margin="25">
+        Title="Login" Height="450" Width="525" Background="#e3e3e3" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Border  CornerRadius="50" Margin="25">
         <StackPanel Margin="25">
             <Label Content="Login" Foreground="#555" FontSize="24" HorizontalAlignment="Center"></Label>
             <Separator></Separator>
-            <Label Content="UserName" Foreground="White"></Label>
-            <TextBox Name="txtUserName"></TextBox>
-            <Label Content="Password" Foreground="White"></Label>
-            <PasswordBox Name="txtPassword"></PasswordBox>
+            <Label Content="User name" Foreground="#555"></Label>
+            <TextBox Name="txtUserName" Padding="10"></TextBox>
+            <Label Content="Password" Foreground="#555"></Label>
+            <PasswordBox Name="txtPassword" Padding="10"></PasswordBox>
             
-            <Button Content="Submit" Margin="20" Foreground="White" Background="Gray"></Button>
+            <Button x:Name="btnSubmit" Content="Submit" Margin="0,20,0,10"  Foreground="White" Background="#336688" Padding="15" Click="btnSubmit_Click" ></Button>
+            <Label Content="Invalid User Name or Password" Foreground="Red" HorizontalAlignment="Center" Name="lblMsg"></Label>
         </StackPanel>
     </Border>
 </Window>
