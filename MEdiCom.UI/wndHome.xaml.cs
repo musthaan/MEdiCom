@@ -23,5 +23,11 @@ namespace MEdiCom.UI
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Users_Click(object sender, RoutedEventArgs e)
+        {
+            wndUserList wnd = new wndUserList();
+            wnd.Show();
+        }
     }
 }

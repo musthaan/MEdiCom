@@ -58,6 +58,9 @@
     <Compile Include="wndHome.xaml.cs">
       <DependentUpon>wndHome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="wndUserList.xaml.cs">
+      <DependentUpon>wndUserList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="wndUsers.xaml.cs">
       <DependentUpon>wndUsers.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="wndHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="wndUserList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -129,6 +136,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

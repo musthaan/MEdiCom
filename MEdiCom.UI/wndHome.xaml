@@ -20,7 +20,7 @@
                         <ContentPresenter Content="Manage" />
                     </StackPanel>
                 </MenuItem.Header>
-                <MenuItem Header="Users" HorizontalAlignment="Left" Height="30" Width="140"/>
+                <MenuItem Header="Users" HorizontalAlignment="Left" Height="30" Width="140" Click="MenuItem_Users_Click"/>
                 <MenuItem Header="Doctors" HorizontalAlignment="Left" Height="30" Width="140"/>
                 <MenuItem Header="Lab Tests" HorizontalAlignment="Left" Height="30" Width="140"/>
             </MenuItem>
